@@ -1,7 +1,7 @@
 {
   "name": "ybruin-command-release",
   "description": "ybruin release command.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "name": "Ybruin Team"
   },
