@@ -1,0 +1,31 @@
+{
+  "name": "ybruin-command-release",
+  "description": "ybruin release command.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ybruin Team"
+  },
+  "keywords": [
+    "ybruin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ybruin/ybruin-command-release.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/ut --recursive"
+  },
+  "dependencies": {
+    "chokidar": "1.4.3",
+    "del": "^2.2.1",
+    "livereload-server-spec": "0.2.3",
+    "portfinder": "0.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Ybruin/ybruin-command-release/issues"
+  }
+}
